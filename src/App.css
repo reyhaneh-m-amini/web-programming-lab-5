@@ -38,3 +38,12 @@ button {
 button:hover {
   background: #795473;
 }
+
+
+.card {
+  background: white;
+  border: 1px solid #e4d8e2;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+}
