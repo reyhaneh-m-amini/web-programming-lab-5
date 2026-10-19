@@ -1,20 +1,69 @@
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #302632;
+}
+
+h1 {
+  color: #613b5c;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.welcome {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #d9c4d5;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.welcome p {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  background: #613b5c;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #795473;
+}
+
 .card {
   background: #fffafc;
   border: 1px solid #e0cddd;
   border-radius: 12px;
   padding: 20px;
-  margin: 16px 0;
+  margin: 14px 0;
   box-shadow: 0 3px 8px #eadfea;
 }
 
 .card h2 {
   color: #613b5c;
-  font-size: 22px;
-  margin: 0 0 12px;
+  font-size: 21px;
+  margin-bottom: 10px;
 }
 
 .card p {
   color: #51404f;
   font-size: 16px;
-  margin: 0;
+  margin-bottom: 0;
 }
