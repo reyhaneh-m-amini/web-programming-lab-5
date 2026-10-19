@@ -27,9 +27,11 @@ function App() {
         {showProducts ? 'Hide Products' : 'Show Products'}
       </button>
 
-      {showProducts && <p>Our products will appear here soon.</p>}
+      {showProducts && <ProductList />}
     </main>
   )
 }
 
 export default App
+
+import ProductList from './components/ProductList'
